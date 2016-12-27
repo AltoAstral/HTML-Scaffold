@@ -1,7 +1,7 @@
 # GuiaCozinhaHTML
 
- ## Usage
+## Usage
 
- ### Commands:
-      - gulp serve
-        - Serve content with html livereload and sass watchers
+### Commands:
+     - gulp serve
+       - Serve content with html livereload and sass watchers
