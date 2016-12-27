@@ -1,0 +1,360 @@
+/* Estilos personalizados */
+body {
+  padding-top:120px;
+}
+/* Navbar */
+
+.navbar-header2 {
+    float: left;
+    padding: 15px;
+    /*text-align: center;*/
+    width: 100%;
+}
+
+.navbar-brand-centered {
+  /*position: absolute;*/
+  position:relative;
+  left: 42%;
+  float:none;
+  display: inline-block;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 60px;
+  top:12%;
+}
+
+.navbar>.container .navbar-brand-centered,
+.navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+}
+
+.navbar-fixed-top {
+  box-shadow: 0px 2px 3px #999;
+  -moz-box-shadow: 0px 2px 3px #999;
+  -webkit-box-shadow: 0px 2px 3px #999;
+}
+
+.navbar-toggle {
+    display: block;
+    position: absolute;
+}
+.menuTop {
+    width: 100%;
+    /* box-shadow: 0 4px 2px rgba(0,0,0,0.1); */
+    background: #f7f7f7;
+    text-align: left;
+    /* padding: 13px 0; */
+    border-bottom: 2px solid #eee;
+}
+.frmBusca {
+    float: right;
+}
+.navbar-header2 {
+    float: left;
+    padding: 15px;
+    /* text-align: center; */
+    width: 100%;
+}
+.frmBusca input {
+    background: #ff8388;
+    border: 0 none;
+    border-radius: 3px!important;
+    color: #fff!important;
+}
+.frmBusca button {
+    background: #ff8388;
+    border: 0 none;
+    right: 3px;
+    height: 35.6px;
+    top: 0px;
+}
+
+.navbar-header {
+  float: none;
+}
+.navbar-toggle {
+  display: block;
+  position: absolute;
+}
+.navbar-collapse.collapse {
+  display: none!important;
+}
+.navbar-nav {
+  float: none!important;
+}
+.navbar-nav>li {
+  float: none;
+}
+.navbar-collapse.collapse.in{
+  display:block !important;
+}
+
+
+
+/* colunas sem espacamento */
+.row-no-padding > [class*='col-'] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.no-gutter > [class^="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* classes de posts */
+.news {
+  background:#ccc;
+  float: left;
+  width:100%;
+}
+
+.superformato img {
+    margin: 60px auto;
+}
+
+.contVid h3 {
+  font-size:28px;
+  font-weight: 700;
+}
+.contVid a {
+  color:#f29434;
+}
+
+.share-component .orange-component .share-facebook {
+    background-image: url(../img/share-facebook-orange.png);
+    background-repeat: no-repeat;
+}
+
+.share-component .orange-component .share-twitter {
+    background-image: url(../img/share-twitter-orange.png);
+    background-repeat: no-repeat;
+}
+.share-facebook {
+    background-image: url(../img/share-facebook-brand.png);
+    background-repeat: no-repeat;
+}
+.share-twitter {
+    background-image: url(../img/share-twitter-brand.png);
+    background-repeat: no-repeat;
+}
+.share-component.right-component:after {
+    content: ' ';
+    border-top: 1px solid #D8D8D8;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 80%;
+}
+.share-icon li a {
+    display: block;
+    width: 28px;
+    height: 21px;
+}
+.share-icon, .share-icon li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+}
+
+.share-component.center-component {
+    text-align: center;
+}
+
+.new-section-title {
+   border-bottom: 1px solid;
+   margin-top: 70px;
+   margin-bottom: 35px;
+   text-align: center;
+}
+
+.orange-color {
+    border-color: #f29434!important;
+}
+.orange-color h2, .orange-color h3 {
+    color: #f29434;
+    border-color: #f29434!important;
+}
+.new-section-title h2 {
+    display: inline-block;
+    font-size: 33px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 0 15px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 5px solid;
+}
+.brand-color {
+    border-color: #01a99c!important;
+}
+.brand-color h2, .brand-color h3, .brand-color h2 a {
+    color: #01a99c;
+    border-color: #01a99c!important;
+}
+.new-section-title {
+    margin-top: 30px;
+}
+
+.new-content-box {
+    margin-bottom: 50px;
+}
+.new-content-title h3 {
+    font-weight: 300;
+    min-height: 81px;
+    line-height: 26px;
+    margin-top: 5px;
+}
+.new-content-title h3 a {
+    font-size: 22px;
+    font-weight: 300;
+    color: #222;
+}
+.share-component.right-component {
+    position: relative;
+    text-align: right;
+    margin-bottom: 40px;
+}
+.image-box:after {
+    content: ' ';
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    height: 3px;
+    background-color: #01a99c;
+}
+.image-box img, .receita-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* - MOSAICO (imgs destaque home) - */
+
+.mosaico-image {
+    position: relative;
+    float: left;
+    overflow: hidden
+}
+
+.mosaico-image img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.mosaico-image:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.mosaico-image.half-image {
+    width: 50%;
+    height: 380px;
+    border-bottom: 3px solid #FFF;
+    border-right: 2px solid #FFF
+}
+
+.mosaico-image.half-image+.half-image {
+    border-right: none;
+    border-left: 2px solid #FFF
+}
+
+.mosaico-image.third-image {
+    width: 33.3333333333%;
+    height: 230px;
+    border-right: 2px solid #FFF
+}
+
+.mosaico-link,
+.mosaico-text {
+    width: 100%;
+    position: absolute;
+    left: 0
+}
+
+.mosaico-image.third-image+.third-image {
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF
+}
+
+.mosaico-image.third-image+.third-image+.third-image {
+    border-right: none
+}
+
+.mosaico-link {
+    display: block;
+    top: 0;
+    height: 100%
+}
+
+.mosaico-text {
+    bottom: 0
+}
+
+.mosaico-text h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #FFF;
+    margin: 0
+}
+
+.mosaico-bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0
+}
+
+.half-image .mosaico-text {
+    bottom: 0px
+}
+
+.half-image h2 {
+    line-height: 35px;
+    display:block;
+}
+
+.half-image h2>span {
+    line-height: 40px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, .7);
+    display: block;
+}
+
+.third-image .mosaico-text {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px 20px
+}
+
+.third-image .mosaico-text h2 {
+    font-size: 18px;
+    line-height: 26px
+}
+.mosaico-image a {
+    color: #fff
+}
+
+
+.rounded-image {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 100%;
+    height: auto;
+}
