@@ -37,5 +37,5 @@ jspm_packages
 .node_repl_history
 
 # CSS
-app/css/main.css
-app/css/custom.css
+app/public/css/main.css
+app/public/css/custom.css
