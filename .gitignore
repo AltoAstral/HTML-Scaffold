@@ -38,3 +38,6 @@ jspm_packages
 
 # Compiled CSS
 app/public/css/*.css
+
+# Temp Folder
+.tmp

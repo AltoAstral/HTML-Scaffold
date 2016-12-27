@@ -1,6 +1,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
+concat          = require('gulp-concat');
 
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
@@ -16,7 +17,8 @@ gulp.task('serve', ['sass'], function() {
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
     return gulp.src("app/scss/*.scss")
-        .pipe(sass())
+        .pipe(concat('full.min.scss'))
+        .pipe(sass({outputStyle: 'compressed'}))
         .pipe(gulp.dest("app/public/css"))
         .pipe(browserSync.stream());
 });
