@@ -36,6 +36,5 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-# CSS
-app/public/css/main.css
-app/public/css/custom.css
+# Compiled CSS
+app/public/css/*.css
