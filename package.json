@@ -1,5 +1,5 @@
 {
-  "name": "sass-test",
+  "name": "guiacozinhahtml",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,11 +8,12 @@
     "build-css": "./bin/build-css",
     "watch-css": "./bin/watch-css"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "AstralDigital",
+  "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.1.1",
-    "nodemon": "^1.11.0"
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.7"
