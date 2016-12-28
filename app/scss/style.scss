@@ -171,7 +171,7 @@ body {
 }
 .new-section-title h2 {
     display: inline-block;
-    font-size: 33px;
+    font-size: $tamFonteTituloSecao;
     font-weight: 300;
     text-transform: uppercase;
     padding: 0 15px;
@@ -201,7 +201,7 @@ body {
     margin-top: 5px;
 }
 .new-content-title h3 a {
-    font-size: 22px;
+    font-size: $tamFonteDescLinks;
     font-weight: 300;
     color: #222;
 }
@@ -216,7 +216,7 @@ body {
     margin: 0 auto;
     width: 95%;
     height: 3px;
-    background-color: #01a99c;
+    background-color: $corBrand;
 }
 .image-box img, .receita-image img {
     width: $full-width;
@@ -325,7 +325,7 @@ body {
 }
 
 .third-image .mosaico-text h2 {
-    font-size: 18px;
+    font-size: $tamFonteMosaicoMenor;
     line-height: 26px
 }
 .mosaico-image a {

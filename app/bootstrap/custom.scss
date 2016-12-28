@@ -16,7 +16,7 @@ $navbar-inverse-link-color:                 #000;
 $navbar-inverse-link-hover-color:           #000;
 
 
-$navbar-inverse-bg:                         red;
+$navbar-inverse-bg:                         #EF382B; //bg do navbar
 $bootstrap-sass-asset-helper: false !default;
 //
 // Variables
@@ -894,7 +894,7 @@ $dl-horizontal-breakpoint:    $grid-float-breakpoint !default;
 $hr-border:                   $gray-lighter !default;
 
 
-//*resets + padroes*//
+////*resets + padroes*////
 $semBorda:                    0 none !default;
 $float-left:                  left !default;
 $full-width:                  100% !default;
@@ -945,3 +945,6 @@ $alturaMosaicoPrincipal:      380px !default; //altura das 2 imagens principais 
 $alturaMosaicoSecundario:     230px !default; //altura das 3 imagens secundarias do mosaico-bg
 
 $tamFonteMosaico:             30px !default;
+$tamFonteTituloSecao:         33px !default;
+$tamFonteDescLinks:           22px !default;
+$tamFonteMosaicoMenor:        18px !default;
