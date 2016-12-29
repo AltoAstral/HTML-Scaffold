@@ -1,6 +1,7 @@
 //$font-size-base: 14px !default;
 $font-size-base: 16px;
 
+
 // NAVBAR //
 $navbar-height:                           80px;  //altura do navbar
 $navbar-inverse-color:                    #fff;  //cor(texto) do navbar
@@ -821,7 +822,8 @@ $breadcrumb-color:              #ccc !default;
 //** Text color of current page in the breadcrumb
 $breadcrumb-active-color:       $gray-light !default;
 //** Textual separator for between breadcrumb elements
-$breadcrumb-separator:          "/" !default;
+$breadcrumb-separator:          ">" !default;
+$breadcrumb-link-color:         "red";
 
 
 //== Carousel
@@ -948,3 +950,10 @@ $tamFonteMosaico:             30px !default;
 $tamFonteTituloSecao:         33px !default;
 $tamFonteDescLinks:           22px !default;
 $tamFonteMosaicoMenor:        18px !default;
+
+
+/* Interna */
+
+//Titulo post//
+$tamFonteTituloPost:          3.7em;
+$margemTituloPost:            0 0 10px;
