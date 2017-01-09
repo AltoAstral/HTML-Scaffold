@@ -331,7 +331,40 @@ body {
 .mosaico-image a {
     color: #fff
 }
+.mosaico-text-mobile {
+    bottom: 0;
+    background: #ccc;
 
+}
+.mosaico-text-mobile h2 {
+  font-size: 0.5em!important;
+}
+
+.carousel-control.left, .carousel-control.right {
+ background-image: none!important;
+ }
+
+ .carousel-inner a {
+   height: $alturaSlider;
+   overflow: hidden;
+   display: block;
+ }
+ .carousel-indicators {
+   bottom: $distBottomNav;
+ }
+
+ .carousel-indicators li {
+   border-color:0 none;
+   background:$bgNavLi;
+ }
+ .carousel-indicators .active {
+   background:$bgNavLiAtiva!important;
+ }
+ .carousel-inner h3 {
+ display: block;
+ word-wrap: break-word;
+ width: 100%;
+ }
 
 .rounded-image {
     -webkit-border-radius: 5px;
@@ -355,4 +388,10 @@ body {
   margin: $margemTituloPost;
   font-weight: 100;
   width: 90%;
+}
+
+.entry-date {
+    font-size: $tamFonteAutorPost;
+    padding: $paddingAutorPost;
+    color: $corFonteAutorPost;
 }

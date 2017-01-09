@@ -952,8 +952,23 @@ $tamFonteDescLinks:           22px !default;
 $tamFonteMosaicoMenor:        18px !default;
 
 
+/* SLIDER  -  Carousel*/
+
+$alturaSlider:                230px;
+$distBottomNav:               -35px;
+$bgNavLi:                     #ccc;
+$bgNavLiAtiva:                #EF382B;
+
+
+
+
+
 /* Interna */
 
 //Titulo post//
 $tamFonteTituloPost:          3.7em;
 $margemTituloPost:            0 0 10px;
+
+$tamFonteAutorPost:           .9em;
+$paddingAutorPost:            10px 0;
+$corFonteAutorPost:           #696969;

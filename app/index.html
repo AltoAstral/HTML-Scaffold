@@ -9,6 +9,19 @@
     <link rel="icon" href="../../favicon.ico">
 
     <title>GdC</title>
+    <style type="text/CSS">
+      .conteudo-mobile { display: none;}
+      /* Smartphone Portrait and Landscape */
+      @media only screen
+      and (min-device-width : 320px)
+      and (max-device-width : 480px){ .conteudo-mobile { display: block;} body {padding-top:200px!important;}}
+
+      .conteudo-desktop { display: inline;}
+     /* Smartphone Portrait and Landscape */
+     @media only screen
+     and (min-device-width : 320px)
+     and (max-device-width : 480px){  .conteudo-desktop{ display: none;}}
+    </style>
 
     <!-- Bootstrap core CSS -->
     <link href="public/css/full.min.css" rel="stylesheet">
@@ -61,42 +74,98 @@
     <div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
-					<div class="mosaico-image half-image">
-						<a href="#" class="mosaico-link"></a>
-						<div class="mosaico-text">
-							<h2><span><a href="#">Receita de Quibe com 4 queijos</a></span></h2>
-						</div>
-						<img width="570" height="380" src="http://www.altoastral.com.br/wp-content/uploads/2016/12/quibe-com-4-queijos.jpg" class="mosaico-bg wp-post-image" alt="Final do MasterChef Profissionais">
-					</div>
-					<div class="mosaico-image half-image">
-						<a href="#" class="mosaico-link"></a>
-						<div class="mosaico-text">
-							<h2><span><a href="http://www.altoastral.com.br/entretenimento/final-do-masterchef-profissionais/">Receita de nhoque de abóbora</a></span></h2>
-						</div>
-						<img width="570" height="380" src="http://www.altoastral.com.br/wp-content/uploads/2016/01/nhoque-de-abobora.jpg" class="mosaico-bg wp-post-image" alt="Final do MasterChef Profissionais">
-					</div>
-					<div class="mosaico-image third-image">
-						<a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/" class="mosaico-link"></a>
-						<div class="mosaico-text">
-							<h2><a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/"> Receita de Esfirra de leite Ninho® com Nutella®</a></h2>
-						</div>
-						<img width="380" height="230" src="http://www.altoastral.com.br/wp-content/uploads/2016/12/esfirra-leite-ninho-nutella.jpg" class="mosaico-bg wp-post-image" alt="menina ouvindo música - cérebro">
-					</div>
-					<div class="mosaico-image third-image">
-						<a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/" class="mosaico-link"></a>
-						<div class="mosaico-text">
-							<h2><a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/"> Receita de nhoque com molho de funghi</a></h2>
-						</div>
-						<img width="380" height="230" src="http://www.altoastral.com.br/wp-content/uploads/2016/01/nhoque-com-molho-de-funghi.jpg" class="mosaico-bg wp-post-image" alt="menina ouvindo música - cérebro">
-					</div>
-					<div class="mosaico-image third-image">
-						<a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/" class="mosaico-link"></a>
-						<div class="mosaico-text">
-							<h2><a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/"> Receita de pavê de sonho de valsa</a></h2>
-						</div>
-						<img width="380" height="230" src="http://www.altoastral.com.br/wp-content/uploads/2016/12/Pav%C3%AA-de-sonho-de-valsa.jpg" class="mosaico-bg wp-post-image" alt="menina ouvindo música - cérebro">
-					</div>
-				</div>
+          <div class="conteudo-desktop">
+  					<div class="mosaico-image half-image">
+  						<a href="#" class="mosaico-link"></a>
+  						<div class="mosaico-text">
+  							<h2><span><a href="#">Receita de Quibe com 4 queijos</a></span></h2>
+  						</div>
+  						<img width="570" height="380" src="http://www.altoastral.com.br/wp-content/uploads/2016/12/quibe-com-4-queijos.jpg" class="mosaico-bg wp-post-image" alt="Final do MasterChef Profissionais">
+  					</div>
+  					<div class="mosaico-image half-image">
+  						<a href="#" class="mosaico-link"></a>
+  						<div class="mosaico-text">
+  							<h2><span><a href="http://www.altoastral.com.br/entretenimento/final-do-masterchef-profissionais/">Receita de nhoque de abóbora</a></span></h2>
+  						</div>
+  						<img width="570" height="380" src="http://www.altoastral.com.br/wp-content/uploads/2016/01/nhoque-de-abobora.jpg" class="mosaico-bg wp-post-image" alt="Final do MasterChef Profissionais">
+  					</div>
+  					<div class="mosaico-image third-image">
+  						<a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/" class="mosaico-link"></a>
+  						<div class="mosaico-text">
+  							<h2><a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/"> Receita de Esfirra de leite Ninho® com Nutella®</a></h2>
+  						</div>
+  						<img width="380" height="230" src="http://www.altoastral.com.br/wp-content/uploads/2016/12/esfirra-leite-ninho-nutella.jpg" class="mosaico-bg wp-post-image" alt="menina ouvindo música - cérebro">
+  					</div>
+  					<div class="mosaico-image third-image">
+  						<a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/" class="mosaico-link"></a>
+  						<div class="mosaico-text">
+  							<h2><a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/"> Receita de nhoque com molho de funghi</a></h2>
+  						</div>
+  						<img width="380" height="230" src="http://www.altoastral.com.br/wp-content/uploads/2016/01/nhoque-com-molho-de-funghi.jpg" class="mosaico-bg wp-post-image" alt="menina ouvindo música - cérebro">
+  					</div>
+  					<div class="mosaico-image third-image">
+  						<a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/" class="mosaico-link"></a>
+  						<div class="mosaico-text">
+  							<h2><a href="http://www.altoastral.com.br/curiosidades/musica-mais-fazia-sucesso/"> Receita de pavê de sonho de valsa</a></h2>
+  						</div>
+  						<img width="380" height="230" src="http://www.altoastral.com.br/wp-content/uploads/2016/12/Pav%C3%AA-de-sonho-de-valsa.jpg" class="mosaico-bg wp-post-image" alt="menina ouvindo música - cérebro">
+  					</div>
+          </div>
+          <div class="conteudo-mobile">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <a href="#">
+        <img width="630" height="420" src="http://www.altoastral.com.br/wp-content/uploads/2016/01/nhoque-de-abobora.jpg" alt="Chania">
+      </a>
+      <h3>Receita de Quibe com 4 queijos</h3>
+    </div>
+
+    <div class="item">
+      <a href="#">
+        <img width="630" height="420" src="http://www.altoastral.com.br/wp-content/uploads/2016/01/nhoque-de-abobora.jpg" alt="Chania">
+      </a>
+      <h3>Receita de Quibe com 4 queijos</h3>
+    </div>
+
+    <div class="item">
+      <a href="#">
+        <img width="630" height="420" src="http://www.altoastral.com.br/wp-content/uploads/2016/01/nhoque-de-abobora.jpg" alt="Flower">
+      </a>
+      <h3>Receita de Quibe com 4 queijos</h3>
+    </div>
+
+    <div class="item">
+      <a href="#">
+        <img width="630" height="420" src="http://www.altoastral.com.br/wp-content/uploads/2016/01/nhoque-de-abobora.jpg" alt="Flower">
+      </a>
+      <h3>Receita de Quibe com 4 queijos</h3>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+          </div>
+
+
+  				</div>
 			</div>
 				<div class="col-md12">
 				<!--<div id="div-gpt-ad-1467382346651-0" style="height:auto;" data-google-query-id="CNqW_IDT89ACFccOkQodWB8IBA">
@@ -281,6 +350,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/jquerymobile.js"></script>
 
     <script type="text/javascript">
       $(document).on('click',function(){
@@ -288,6 +358,17 @@
        })
     </script>
 
+    <!-- Para funcionar o "swipe" (touch - mobile)  -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+     $("#myCarousel").swiperight(function() {
+        $("#myCarousel").carousel('prev');
+      });
+     $("#myCarousel").swipeleft(function() {
+        $("#myCarousel").carousel('next');
+     });
+    });
+    </script>
 
   </body>
 </html>
