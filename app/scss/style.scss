@@ -55,10 +55,17 @@ body {
 .frmBusca button {
     background: $bgSearch;
     border: $semBorda;
-    right: 3px;
+    right: 5px;
     height: 35.6px;
     top: 0px;
+    position:relative;
 }
+
+.frmBusca button:hover,.frmBusca button:active,.frmBusca button:focus {
+  background:$bgSearch !important;
+  border: $semBorda !important;
+}
+
 
 .navbar-header {
   float: none;
@@ -361,9 +368,10 @@ body {
    background:$bgNavLiAtiva!important;
  }
  .carousel-inner h3 {
- display: block;
- word-wrap: break-word;
- width: 100%;
+   display: block;
+   word-wrap: break-word;
+   width: 100%;
+   text-align: center;
  }
 
 .rounded-image {
